@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-manage-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halakhellow/tailwind-manage-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halakhellow/tailwind-manage-app/issues"
+  },
+  "homepage": "https://github.com/halakhellow/tailwind-manage-app#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
